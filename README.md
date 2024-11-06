@@ -152,8 +152,8 @@ Run ```Rviz``` for SSD visualization and open another terminal for SSD execution
 ```shell
 sudo cpufreq-set -g performance
 cd FC-Planner
-source devel/setup.zsh && roslaunch rosa rviz.launch
-source devel/setup.zsh && roslaunch rosa ${SCENE}.launch (e.g., redbird.launch)
+source devel/setup.bash && roslaunch rosa rviz.launch
+source devel/setup.bash && roslaunch rosa ${SCENE}.launch (e.g., redbird.launch)
 ```
 
 Afterwards, you will see the SSD results of HKUST RedBird in your ```Rviz``` as follows:
