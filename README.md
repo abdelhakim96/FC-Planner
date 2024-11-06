@@ -109,7 +109,7 @@ Run ```Rviz``` for coverage flight visualization and open another terminal for r
 sudo cpufreq-set -g performance
 cd FC-Planner
 source devel/setup.bash && roslaunch hierarchical_coverage_planner rviz.launch
-source devel/setup.bash && roslaunch hierarchical_coverage_planner mbs.launch
+source devel/setup.bash && roslaunch hierarchical_coverage_planner turbine.launch
 ```
 Trigger the quadrotor to start planning by the ``2D Nav Goal``, then ``2D Pose Estimate`` to start coverage flight as shown in the left gif. More scenes are provided in ```src/hierarchical_coverage_planner/launch```
 <p align="center">
